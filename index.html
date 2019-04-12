@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.0.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Movie Tickets</title>
+</head>
+
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <h1> Pizza Italiano</h1>
+    </div>
+</div>
+<div id="firstPage" class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <p><img src="img/pizza1.jpeg" height="300px" ></p>
+        </div>
+        <div class="col-md-3">
+            <p><img src="img/pizza2.jpeg" height="300px" ></p>
+        </div>
+        <div class="col-md-3">
+            <p><img src="img/pizza3.jpeg" height="300px"></p>
+        </div>
+        <div class="col-md-3">
+            <p><img src="img/pizza4.jpeg" height="300px"></p>
+        </div>
+    </div>
+    <form id="price">
+        <label for="crust"> Crust </label><br>
+        <select id="crust">
+            <option value="NaN?">What crust do you prefer?</option>
+            <option value='1'>thin crust</option>
+            <option value='1'>cauliflower</option>
+            <option value='1'>gluten-free</option>
+            <option value='1'>deep dish</option>
+        </select><br><br>
+        <label for="size">Size</label><br>
+        <select id="size">
+            <option name="NaN" value=0>What size would you want?</option>
+            <option name="12" value='1'>12</option>
+            <option name="14" value='2'>14</option>
+            <option name="16" value='3'>16</option>
+            <option name="18" value='4'>18</option>
+        </select><br><br>
+        <label for="Sauce"> Choose your sauce</label><br>
+        <select id="sauce">
+            <option name="NaN" value="0">Choose your sauce</option>
+            <option name="pesto" value='1'> Pesto</option>
+            <option name="marinara" value='4'> Marinara</option>
+            <option name="garlic" value='10'> Creamy Garlic Sauce</option>
+            <option name="chilli" value='1'> Sweet Chili Sauce</option>
+        </select><br><br>
+        <label for="comments>Additional instructions: </label>
+        <input id="comments" type="comments">
+        <button class="btn btn-info" type="submit">Add</button>
+    </form>
+
+    <div id="hiddenText">
+        <p><span id="priceOfpizza"></span></p>
+        <button id="buyPizza" class="btn btn-info"> Pay now</button>
+    </div>
+
+</div>
+<div id="thankYouPage" class="container" style="display: none">
+    <h1>Thank you!</h1>
+</div>
+
+</body>
+</html>
