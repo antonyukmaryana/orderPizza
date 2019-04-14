@@ -1,5 +1,5 @@
 .jumbotron{
-    background-color: #1c7430;
+    background-color: #1E9E6D;
     text-align: center;
 }
 .row {
@@ -16,4 +16,16 @@
 }
 img {
     margin-top: 100px;
+
+}
+.comment-form-comment input, select, textarea {
+    background-color: #1E9E6D;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 3px #EEEEEE inset;
+    color: white;
+    font-size: 1.8rem;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    padding: 1.6rem;
+    width: 100%;
 }
