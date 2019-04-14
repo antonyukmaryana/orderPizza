@@ -1,0 +1,19 @@
+.jumbotron{
+    background-color: #1c7430;
+    text-align: center;
+}
+.row {
+    padding-bottom: 100px;
+}
+#price {
+    text-align: center;
+}
+#hiddenText{
+    padding-top: 8px;
+    display: none;
+    text-align: center;
+
+}
+img {
+    margin-top: 100px;
+}
