@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 
         var result = "Your pizza is: " + userCrustText + ' ' + userSizeText + ' '
-            + 'with' + ' ' + userSauceText + " and toppings: " + allToppingsNames 
+            + 'with' + ' ' + userSauceText + " and toppings: " + allToppingsNames
             + ". The price is: " + resultPrice;
 
         $("#priceOfPizza").text(result);
