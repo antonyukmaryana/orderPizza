@@ -21,7 +21,7 @@ $(document).ready(function () {
             toppings.push(new Topping(name, price));
         });
 
-        
+
         function Pizza(crust, size, sauce, toppings) {
             this.crust = crust;
             this.size = size;
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 
         var result = "Your pizza is: " + userCrustText + ' ' + userSizeText + ' '
-            + 'with' + ' ' + userSauceText + " and toppings " + allToppingsNames
+            + 'with' + ' ' + userSauceText + " and toppings: " + allToppingsNames 
             + ". The price is: " + resultPrice;
 
         $("#priceOfPizza").text(result);
